@@ -19,8 +19,16 @@ namespace calc
             vibor = Console.ReadLine();
             switch(vibor)
             {
+                case "выполнить операцию +":
+                    Console.WriteLine("Результат: " + C);
+                    break;
                 case "выполнить операцию -":
-                    C = A - B;
+                    Console.WriteLine("Результат: " + C);
+                    break;
+                case "выполнить операцию *":
+                    Console.WriteLine("Результат: " + C);
+                    break;
+                case "выполнить операцию /":
                     Console.WriteLine("Результат: " + C);
                     break;
             }
