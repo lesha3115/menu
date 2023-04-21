@@ -20,6 +20,7 @@ namespace calc
             switch(vibor)
             {
                 case "выполнить операцию +":
+                    C = A + B;
                     Console.WriteLine("Результат: " + C);
                     break;
                 case "выполнить операцию -":
