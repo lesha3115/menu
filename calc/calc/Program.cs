@@ -19,19 +19,9 @@ namespace calc
             vibor = Console.ReadLine();
             switch(vibor)
             {
-                case "ввести А":
-                    A = Convert.ToInt32(Console.ReadLine());
-                    break;
-                case "ввести В":
-                    B = Convert.ToInt32(Console.ReadLine());
-                    break;
                 case "выполнить операцию +":
-                    break;
-                case "выполнить операцию -":
-                    break;
-                case "выполнить операцию *":
-                    break;
-                case "выполнить операцию /":
+                    C = A + B;
+                    Console.WriteLine("Результат: " + C);
                     break;
             }
             Console.ReadKey();
